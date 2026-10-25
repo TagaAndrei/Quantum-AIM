@@ -1,0 +1,19 @@
+# Python 3.12+ recommended (developed with 3.14).
+# Install from the project root:
+#   python -m venv .venv
+#   .venv\Scripts\activate          # Windows
+#   source .venv/bin/activate       # Linux / macOS
+#   pip install -U pip
+#   pip install -r requirements.txt
+#
+# For CUDA PyTorch, install the matching wheel from https://pytorch.org
+# after (or instead of) the CPU torch line below, e.g.:
+#   pip install torch --index-url https://download.pytorch.org/whl/cu130
+
+numpy>=2.0
+pandas>=2.2
+scipy>=1.11
+scikit-learn>=1.4
+torch>=2.2
+pennylane>=0.40
+pennylane-lightning>=0.40
